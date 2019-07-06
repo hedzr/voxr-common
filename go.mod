@@ -2,16 +2,16 @@ module github.com/hedzr/voxr-common
 
 go 1.12
 
-replace github.com/hedzr/cmdr v0.0.0 => ../cmdr
+// replace github.com/hedzr/cmdr v0.0.0 => ../cmdr
 
-replace github.com/hedzr/cmdr v0.2.25 => ../cmdr
+// replace github.com/hedzr/cmdr v0.2.25 => ../cmdr
 
-replace github.com/hedzr/logex v0.0.0 => ../logex
+// replace github.com/hedzr/logex v0.0.0 => ../logex
 
 require (
 	github.com/bgentry/speakeasy v0.1.0
 	github.com/coreos/bbolt v1.3.2 // indirect
-	github.com/coreos/etcd v3.3.10+incompatible // indirect
+	github.com/coreos/etcd v3.3.13+incompatible // indirect
 	github.com/coreos/go-semver v0.2.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
@@ -30,14 +30,15 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.9.0 // indirect
 	github.com/hashicorp/consul/api v1.1.0
-	github.com/hedzr/cmdr v0.2.25
-	github.com/influxdata/influxdb v1.7.6
+	github.com/hedzr/cmdr v1.0.0
 	github.com/jinzhu/gorm v1.9.9
 	github.com/jonboulle/clockwork v0.1.0 // indirect
-	github.com/konsorten/go-windows-terminal-sequences v1.0.2
+	github.com/json-iterator/go v1.1.6 // indirect
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/labstack/gommon v0.2.9
 	github.com/magiconair/properties v1.8.1
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pbnjay/memory v0.0.0-20180430190442-16f8386fc07f
 	github.com/prometheus/client_golang v0.9.3 // indirect
 	github.com/relops/cqlr v0.0.0-20141111204017-0ac35893ea3f
@@ -46,7 +47,6 @@ require (
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/streadway/amqp v0.0.0-20190404075320-75d898a42a94
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
-	github.com/ugorji/go v1.1.4 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	go.etcd.io/bbolt v1.3.2 // indirect
 	go.etcd.io/etcd v3.3.13+incompatible
@@ -59,4 +59,9 @@ require (
 	google.golang.org/grpc v1.21.1
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
 	gopkg.in/yaml.v2 v2.2.2
+)
+
+exclude (
+	github.com/coreos/etcd v3.3.10+incompatible // indirect
+	github.com/hashicorp/go-rootcerts v1.0.0
 )
