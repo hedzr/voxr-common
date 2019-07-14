@@ -61,7 +61,4 @@ require (
 	gopkg.in/yaml.v2 v2.2.2
 )
 
-exclude (
-	github.com/coreos/etcd v3.3.10+incompatible // indirect
-	github.com/hashicorp/go-rootcerts v1.0.0
-)
+exclude github.com/coreos/etcd v3.3.10+incompatible // indirect
