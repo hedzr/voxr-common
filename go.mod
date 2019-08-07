@@ -10,7 +10,7 @@ go 1.12
 
 require (
 	github.com/bgentry/speakeasy v0.1.0
-	github.com/coreos/bbolt v1.3.2 // indirect
+	github.com/coreos/bbolt v1.3.3 // indirect
 	github.com/coreos/etcd v3.3.13+incompatible // indirect
 	github.com/coreos/go-semver v0.2.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e // indirect
@@ -61,4 +61,4 @@ require (
 	gopkg.in/yaml.v2 v2.2.2
 )
 
-exclude github.com/coreos/etcd v3.3.10+incompatible // indirect
+// exclude github.com/coreos/etcd v3.3.10+incompatible // indirect
