@@ -31,7 +31,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.11.3 // indirect
 	github.com/hashicorp/consul/api v1.2.0
-	github.com/hedzr/cmdr v1.5.3
+	github.com/hedzr/cmdr v1.6.9
 	github.com/influxdata/influxdb v1.7.8
 	github.com/jinzhu/gorm v1.9.11
 	github.com/jonboulle/clockwork v0.1.0 // indirect
